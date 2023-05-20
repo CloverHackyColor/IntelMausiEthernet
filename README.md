@@ -50,3 +50,27 @@ Key Features of the Driver
 - Support for Energy Efficient Ethernet (EEE).
 - VLAN support is implemented but untested as I have no need for it.
 - The driver is published under GPLv2.
+
+# Compilation
+
+Download sources
+~~~~
+git clone https://github.com/CloverHackyColor/IntelMausiEthernet.git
+~~~~
+
+then also download MacKernelSDK
+~~~~
+git clone https://github.com/joevt/MacKernelSDK.git
+~~~~
+
+goto the project folder
+~~~~
+cd IntelMausiEthernet
+~~~~
+
+and make symbolic link to the SDK
+~~~~
+ln -s ../MacKernelSDK MacKernelSDK
+~~~~
+
+The project is ready to compile by Xcode any version.
