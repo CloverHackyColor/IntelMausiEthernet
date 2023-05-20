@@ -42,41 +42,41 @@ extern "C" {
 
 enum
 {
-	MEDIUM_INDEX_AUTO = 0,
-	MEDIUM_INDEX_10HD,
-	MEDIUM_INDEX_10FD,
-	MEDIUM_INDEX_100HD,
-    MEDIUM_INDEX_100FD,
-    MEDIUM_INDEX_100FDFC,
-    MEDIUM_INDEX_1000FD,
-    MEDIUM_INDEX_1000FDFC,
-    MEDIUM_INDEX_1000FDEEE,
-    MEDIUM_INDEX_1000FDFCEEE,
-    MEDIUM_INDEX_100FDEEE,
-    MEDIUM_INDEX_100FDFCEEE,
-	MEDIUM_INDEX_COUNT
+  MEDIUM_INDEX_AUTO = 0,
+  MEDIUM_INDEX_10HD,
+  MEDIUM_INDEX_10FD,
+  MEDIUM_INDEX_100HD,
+  MEDIUM_INDEX_100FD,
+  MEDIUM_INDEX_100FDFC,
+  MEDIUM_INDEX_1000FD,
+  MEDIUM_INDEX_1000FDFC,
+  MEDIUM_INDEX_1000FDEEE,
+  MEDIUM_INDEX_1000FDFCEEE,
+  MEDIUM_INDEX_100FDEEE,
+  MEDIUM_INDEX_100FDFCEEE,
+  MEDIUM_INDEX_COUNT
 };
 
 #define MBit 1000000
 
 enum {
-    kSpeed1000MBit = 1000*MBit,
-    kSpeed100MBit = 100*MBit,
-    kSpeed10MBit = 10*MBit,
+  kSpeed1000MBit = 1000*MBit,
+  kSpeed100MBit = 100*MBit,
+  kSpeed10MBit = 10*MBit,
 };
 
 enum {
-    kFlowControlTypeNone = 0,
-    kFlowControlTypeRx = 1,
-    kFlowControlTypeTx = 2,
-    kFlowControlTypeRxTx = 3,
-    kFlowControlTypeCount
+  kFlowControlTypeNone = 0,
+  kFlowControlTypeRx = 1,
+  kFlowControlTypeTx = 2,
+  kFlowControlTypeRxTx = 3,
+  kFlowControlTypeCount
 };
 
 enum {
-    kEEETypeNo = 0,
-    kEEETypeYes = 1,
-    kEEETypeCount
+  kEEETypeNo = 0,
+  kEEETypeYes = 1,
+  kEEETypeCount
 };
 
 #define kTransmitQueueCapacity  1000
